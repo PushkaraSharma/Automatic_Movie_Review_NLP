@@ -11,7 +11,7 @@ from nltk import NaiveBayesClassifier
 from nltk import classify
 from nltk import word_tokenize
 from MAIN_scrap_movies_reviews import reviews_extract
-from sklearn.externals import joblib
+import joblib
 
 
 def bag_words(words):
